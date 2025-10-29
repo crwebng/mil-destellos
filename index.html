@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Esencia & Estilo — by Judith, Raquel & Kimberly Díaz</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Raleway:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+
+<div class="background-slideshow">
+  <img src="assets/fond.png" alt="fondo 1" class="bg active">
+  <img src="assets/fond2.png" alt="fondo 2" class="bg">
+  <img src="assets/fond3.png" alt="fondo 3" class="bg">
+</div>
+
+<body>
+  <header class="site-header fixed">
+    <div class="logo">
+      <h1>Esencia & Estilo</h1>
+      <p class="subtitulo">— by Judith, Raquel & Kimberly Díaz</p>
+    </div>
+    <nav class="main-nav">
+      <a href="index.html" class="active">Inicio</a>
+      <a id="equipo-btn">Nuestro Equipo ▾</a>
+      <div class="submenu" id="submenu">
+        <a href="galjud.html">💠 Judith Díaz</a>
+        <a href="galraq.html">💄 Raquel Díaz</a>
+        <a href="galkim.html">🌸 Kimberly Díaz</a>
+      </div>
+    </nav>
+  </header>
+
+  <section class="hero" style="background-image:url('fond/fondo1.jpg');">
+    <div class="hero-content">
+      <h2>Transformamos tu imagen,<br><span>revelamos tu esencia</span></h2>
+      <p>Un espacio donde la técnica, el arte y la calidez familiar se unen para resaltar tu belleza natural.</p>
+    </div>
+  </section>
+
+  <main class="container">
+    <h2 class="section-title">Nuestras Especialistas</h2>
+    <div class="equipo-grid">
+      <div class="card-persona">
+        <img src="assets/j1.png" alt="Judith Díaz">
+        <h3>Judith Díaz</h3>
+        <p>Colorimetría y Estilismo</p>
+        <a href="galjud.html" class="btn-glow">Ver trabajos</a>
+      </div>
+      <div class="card-persona">
+        <img src="assets/r1.png" alt="Raquel Díaz">
+        <h3>Raquel Díaz</h3>
+        <p>Maquillaje y Cejas</p>
+        <a href="galraq.html" class="btn-glow">Ver trabajos</a>
+      </div>
+      <!--
+      <div class="card-persona">
+        <img src="imgk/k1.png" alt="Kimberly Díaz">
+        <h3>Kimberly Díaz</h3>
+        <p>Extensiones y Lifting</p>
+        <a href="galkim.html" class="btn-glow">Ver trabajos</a>
+      </div>
+      -->
+    </div>
+
+    <!-- FORMULARIO -->
+    <div class="form-contacto">
+      <h3>Comentarios y sugerencias</h3>
+      <form action="mailto:diaz.rakel0795@gmail.com" method="post" enctype="text/plain">
+        <input type="text" name="nombre" placeholder="Tu nombre" required>
+        <input type="email" name="correo" placeholder="Tu correo electrónico" required>
+        <textarea name="mensaje" rows="5" placeholder="Escribe tus comentarios o sugerencias..." required></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2025 Esencia & Estilo — by Judith, Raquel & Kimberly Díaz 💫</p>
+  </footer>
+</body>
+</html>
