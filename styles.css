@@ -156,7 +156,8 @@ body {
 .carousel-item img, .carousel-item video {
   width: 95%;
   height: 300px;
-  object-fit: cover;
+  object-fit: contain;
+  background-color: #000;
   border-radius: 10px;
   border: 1px solid var(--verde-glow);
 }
