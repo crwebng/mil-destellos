@@ -156,7 +156,8 @@ body {
 .carousel-item img, .carousel-item video {
   width: 95%;
   height: 300px;
-  object-fit: cover;
+  object-fit: contain;
+  background-color: #000;
   border-radius: 10px;
   border: 1px solid var(--verde-glow);
 }
@@ -305,4 +306,12 @@ body {
     padding: 0.5rem 1rem;
     font-size: 0.9rem;
   }
+  .foto-datos {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  border-radius: 10px;
+  border: 1px solid var(--verde-glow);
+}
+
 }
